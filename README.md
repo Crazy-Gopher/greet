@@ -20,11 +20,13 @@ git push origin main
 ```git tag v1.0.0```
 ```git push origin v1.0.0```
 
-7. Upgrade the version
+7. Go to client code and call function this package
+
+8. Upgrade the version
 ```
 git add .
 git commit -m "Added HelloUpper"
 git push origin main
-git tag v2.0.0
-git push origin v2.0.0
+git tag v1.0.2
+git push origin v1.0.2
 ```

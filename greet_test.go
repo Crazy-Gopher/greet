@@ -9,3 +9,11 @@ func TestHello(t *testing.T) {
 		t.Errorf("Expected %s but got %s", expected, result)
 	}
 }
+
+func TestHelloUpper(t *testing.T) {
+	expected := "HELLO, GO!"
+	result := HelloUpper("Go")
+	if result != expected {
+		t.Errorf("Expected %s but got %s", expected, result)
+	}
+}
